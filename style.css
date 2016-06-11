@@ -1,0 +1,19 @@
+body{
+  margin:0px;
+  position : relative;
+}
+
+.header {
+
+}
+
+.details{
+  position: absolute;
+  top: 8em;
+  left: 4em;
+}
+
+.name {
+  font-size:51px;
+  color: #fff;
+}
