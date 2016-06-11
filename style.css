@@ -139,3 +139,30 @@ body{
     padding: 0;
     list-style: none;
 }
+
+
+.copyright {
+    width: 100%;
+    background: #1c1c1c;
+    text-shadow: none;
+    min-height: 20px;
+    color: #ccc;
+    margin: 0;
+    text-align: center;
+    font-size: 12px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    display: block;
+}
+
+.container {
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+.follow-us {
+	position: relative;
+	display: inline-block;
+}
