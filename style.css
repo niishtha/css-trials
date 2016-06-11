@@ -1,49 +1,16 @@
+body{
+  margin:0px;
+  position : relative;
+}
 
 .tranparent-header,html {
     position: relative
 }
 
-.tranparent-header header {
-    background-color: transparent!important;
-    position: absolute
-}
-
-.tranparent-header header a.navbar-brand {
-    background: url(../../images/grofers_white_logo.png) center/cover no-repeat;
-    width: 128px;
-    height: 32px;
-    margin-left: 10px;
-    margin-top: 12px
-}
-
-.tranparent-header header #cd-top-nav a {
-    color: #fff!important
-}
-
-.tranparent-header header #cd-menu-trigger .cd-menu-icon {
-    background-color: #fff!important
-}
-
-.tranparent-header header #cd-menu-trigger {
-    background-color: transparent!important
-}
-
-
 .navbar-brand {
     height: 50px;
     font-size: 18px;
-    line-height: 20px
-}
-
-.navbar-brand:focus,.navbar-brand:hover {
-    text-decoration: none
-}
-
-.navbar-brand>img {
-    display: block
-}
-
-.navbar-brand {
+    line-height: 20px;
     float: left;
     padding: 0 0 0 10px
 }
@@ -51,6 +18,7 @@
 .navbar-brand img {
     height: 32px;
     margin-top: 12px;
+    display: block
 }
 
 
@@ -61,67 +29,34 @@
 
 #cd-top-nav {
     position: absolute;
+    top: 0;
+    right: 28px;
+    padding: 10px 0;
 }
-
-#cd-top-nav li {
-    display: inline-block;
-    padding: .5em
-}
-
-#cd-top-nav a {
-    display: inline-block;
-    text-transform: initial
-}
-
-#cd-top-nav a.current {
-    background-color: #242e30
-}
-
 
 #cd-top-nav ul {
     margin: 3px 10px 0 0;
 }
 
 #cd-top-nav li {
+    display: inline-block;
+    padding: .5em;
     margin-right: 15px
 }
 
 #cd-top-nav a {
-    color: #666;
+    display: inline-block;
+    text-transform: initial;
+    color: #fff;
     font-weight: 500;
     vertical-align: baseline;
     font-size: 14px
 }
 
-.copyright,.footer-border i {
-    vertical-align: 0
-}
-
-nav#cd-top-nav li:after {
-    height: 2px;
-    width: 0;
-    background: 0 0
-}
-
-nav#cd-top-nav li:hover:after {
-    width: 100%;
-    background: #e96125
-}
-
-#cd-top-nav {
-    top: 0;
-    right: 28px;
-    padding: 10px 0;
-}
-
-
-body{
-  margin:0px;
-  position : relative;
-}
-
-.main {
-
+.outer {
+	background-image: url("./images/sb_student_story.jpg");
+	height: 500px;
+	width: 100%
 }
 
 .details{
@@ -133,3 +68,74 @@ body{
 .name {
   font-size:51px;
   color: #fff;
+}
+
+
+.extra-stuff {
+    padding: 40px 0 30px;
+    background: #f8f8f8;
+    border-bottom: 1px solid #eee;
+}
+
+
+.constant-padding {
+    padding: 0 114px;
+}
+
+.extra-stuff p {
+    color: #666;
+    line-height: 1.6em;
+    font-style: italic;
+    font-weight: 500;
+}
+
+
+.subsidiaries {
+    background: #088A4B;
+    border-top: 1px solid #252525;
+    padding: 30px 40px;
+    color: #fff;
+}
+
+
+.footer {
+    background: #191919;
+    padding: 50px 10px;
+}
+
+.footer .links-row {
+    width: 70%;
+    white-space: nowrap;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.footer .links-row .links-detail {
+	width: 16%;
+    margin: 0 60px;
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+    padding-left: 14px;
+}
+
+.footer .footer-header {
+    color: #fff;
+    height: 35px;
+    font-weight: 500;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.footer .footer-header .footer-text {
+    display: inline-block;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 11px;
+}
+
+.footer .links {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
