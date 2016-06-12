@@ -20,11 +20,11 @@ html {
     font-size: 18px;
     line-height: 20px;
     float: left;
-    padding: 0 0 0 150px
+    padding: 0 0 0 75px
 }
 
 .navbar-brand img {
-    height: 55px;
+    height: 40px;
     margin-top: 12px;
     display: block
 }
@@ -43,13 +43,13 @@ html {
 }
 
 #cd-top-nav ul {
-    margin: 3px 10px 0 0;
+    margin: 3px 30px 0 0;
 }
 
 #cd-top-nav li {
     display: inline-block;
     padding: .5em;
-    margin-right: 15px
+    margin-right: 2px
 }
 
 #cd-top-nav a {
@@ -58,7 +58,7 @@ html {
     color: #fff;
     font-weight: 500;
     vertical-align: baseline;
-    font-size: 22px;
+    font-size: 12px;
     text-transform: uppercase;
     text-decoration: none;
 }
@@ -66,14 +66,14 @@ html {
 .outer {
     background-image: url("./images/sb_student_story.jpg");
     background-size: cover;
-    height: 775px;
+    height: 480px;
     width: 100%
 }
 
 .details {
     position: absolute;
-    top: 12em;
-    left: 11em;
+    top: 9em;
+    left: 5em;
     color: #fff;
 }
 
@@ -83,17 +83,17 @@ html {
 }
 
 .extra-stuff {
-    padding: 40px 0 30px;
+    padding: 40px 0 18px;
     background: #efeff6;
     border-bottom: 1px solid #eee;
 }
 
 .constant-padding {
-    padding: .8em 11em;
+    padding: .8em 9em;
 }
 
 .extra-stuff p {
-    font-size: 45px;
+    font-size: 30px;
     color: #666;
     line-height: 100%;
     font-style: italic;
@@ -176,7 +176,7 @@ html {
 
 .personal-details ul {
     display: inline-block;
-    font-size: 23px;
+    font-size: 16px;
 }
 
 .personal-details ul.keys {
@@ -195,13 +195,13 @@ html {
 }
 
 .paragraph-1 img{
-	height: 301px;
-    padding-left: 30px;
-    padding-bottom: 10px;
+	height: 233px;
+    padding-left: 5px;
+    padding-bottom: 40px;
 }
 
 .paragraph-2 {
-	margin-right: 200px;
+	margin-right: 120px;
 }
 
 
@@ -220,34 +220,35 @@ html {
 
 .full-card {
     position: relative;
-    padding: 0px 0px 0px 80px;
+    padding: 30px 0px 0px 80px;
 }
 
 .full-card section {
-    padding: 32px 86px;
-    color: #515155;
+    padding: 15px 30px;
+    color: #737377;
 }
 
 .full-card section p {
-    font-size: 22px;
+    font-size: 16px;
     margin-bottom: 20px;
-    line-height: 36px;
+    line-height: 25px;
 }
 
 .full-card section h2 {
-    font-size: 28px;
+    font-size: 22px;
+    color: #000;
     font-weight: 700;
     margin: 14px 0px;
 }
 
 h1 {
-    font-size: 85px;
+    font-size: 56px;
 }
 
 .sub-head {
     /*font-size: 1.6525em;*/
     
-    font-size: 42px;
+    font-size: 24px;
     padding-bottom: 10px;
     /*border-bottom: 1px solid yellow;*/
     
@@ -260,14 +261,23 @@ h1 {
     border-style: solid;
     border-color: #ffff00;
     background-color: #ffff00;
-    width: 50px;
+    width: 45px;
 }
 
-.image-caption {
-    font-size: 30px;
+.full-card .caption-container .image-caption {
+	font-size: 24px;
     font-style: italic;
+    line-height: 30px
+}
+
+.full-card .caption-parent {
+	display:inline-block; width:30%; vertical-align:top
+}
+
+.full-card .caption-parent img{
+	width: 300px;
 }
 
 .caption-container{
-	width: 400px;
+	width: 300px;
 }
