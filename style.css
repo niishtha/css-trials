@@ -6,6 +6,7 @@
 body{
   margin:0px;
   position : relative;
+  font-family: 'Roboto', sans-serif;
 }
 
 .tranparent-header,html {
@@ -79,7 +80,7 @@ body{
 
 .extra-stuff {
     padding: 40px 0 30px;
-    background: #f8f8f8;
+    background: #efeff6;
     border-bottom: 1px solid #eee;
 }
 
@@ -90,7 +91,7 @@ body{
 
 
 .extra-stuff p {
-    font-size: 1.875em;
+    font-size: 24px;
     color: #666;
     line-height: 100%;
     font-style: italic;
@@ -99,15 +100,14 @@ body{
 
 
 .subsidiaries {
-    background: #088A4B;
-    border-top: 1px solid #252525;
+    background: #42bea2;
     padding: 30px 40px;
     color: #fff;
 }
 
 
 .footer {
-    background: #191919;
+    background: #48485e;
     padding: 50px 10px;
 }
 
@@ -151,7 +151,7 @@ body{
 
 .copyright {
     width: 100%;
-    background: #1c1c1c;
+    background: #3b3b4e;
     text-shadow: none;
     min-height: 20px;
     color: #ccc;
@@ -194,4 +194,16 @@ body{
 
 .full-card section {
   padding : 32px 86px;
+  color: #515155;
+}
+
+.full-card section p {
+	font-size: 16px;
+	margin-bottom: 20px;
+}
+
+.full-card section h2 {
+	font-size: 24px;
+	font-weight: 700;
+	margin: 14px 0px;
 }
