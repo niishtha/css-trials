@@ -262,3 +262,12 @@ h1 {
     background-color: #ffff00;
     width: 50px;
 }
+
+.image-caption {
+    font-size: 30px;
+    font-style: italic;
+}
+
+.caption-container{
+	width: 400px;
+}
