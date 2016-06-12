@@ -35,6 +35,10 @@ html {
     height: 100%
 }
 
+a {
+	text-decoration: none;
+}
+
 #cd-top-nav {
     position: absolute;
     top: 0;
@@ -60,7 +64,6 @@ html {
     vertical-align: baseline;
     font-size: 12px;
     text-transform: uppercase;
-    text-decoration: none;
 }
 
 .outer {
@@ -280,4 +283,9 @@ h1 {
 
 .caption-container{
 	width: 300px;
+}
+
+.story-link{
+	color:#42bea2;
+	font-style: italic;
 }
