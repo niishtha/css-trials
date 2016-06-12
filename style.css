@@ -189,9 +189,9 @@ body{
 .paragraph-1{
   padding: .625em 1.825em;
   position: relative;
-  height: 34em
+  height: 30em
 }
 
-.paragraph-1 img {
-  padding: .625em 0em;
+.full-card section {
+  padding : 32px 86px;
 }
