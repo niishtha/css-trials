@@ -185,3 +185,13 @@ body{
 .personal-details ul {
   display : inline-block;
 }
+
+.paragraph-1{
+  padding: .625em 1.825em;
+  position: relative;
+  height: 34em
+}
+
+.paragraph-1 img {
+  padding: .625em 0em;
+}
